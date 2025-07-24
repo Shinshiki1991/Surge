@@ -1,0 +1,15 @@
+# Tailscale 内网网段
+192.168.50.0/24
+100.64.0.0/10
+fd7a:115c:a1e0::/48
+
+# Tailscale 控制服务
+controlplane.tailscale.com
+login.tailscale.com
+api.tailscale.com
+tailscale.com
+headscale.net
+
+# Tailscale relay servers（DERP）
+derp.io
+derpX.tailscale.com
