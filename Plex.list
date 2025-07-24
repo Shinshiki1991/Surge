@@ -1,0 +1,16 @@
+# 内网地址（如群晖 Plex）
+192.168.0.0/16
+10.0.0.0/8
+172.16.0.0/12
+100.64.0.0/10
+fd00::/8
+
+# Plex 本地设备发现
+domain-suffix,plex.direct
+domain-suffix,plex.bz
+domain-suffix,plex.tv
+domain-suffix,local
+
+# Plex 中转服务（远程访问）
+domain-suffix,plexrelay.net
+domain-keyword,plex
