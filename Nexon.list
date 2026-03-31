@@ -20,6 +20,7 @@ PROCESS-NAME,MapleStory.exe
 PROCESS-NAME,NxSteamService.exe
 PROCESS-NAME,BlackCipher.exe
 PROCESS-NAME,NGS.exe
+PROCESS-NAME,wineserver
 
 # IP 段
 IP-ASN,13445,Nexon,no-resolve
