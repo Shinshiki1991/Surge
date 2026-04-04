@@ -1,0 +1,26 @@
+# > Nexon Platform & Global MapleStory
+# 域名后缀匹配 (涵盖官网、登录器、API)
+DOMAIN-SUFFIX,nexon.com
+DOMAIN-SUFFIX,nexon.net
+DOMAIN-SUFFIX,nexon.io
+DOMAIN-SUFFIX,nx.com
+DOMAIN-SUFFIX,nexon.gtld
+
+# 关键字匹配 (兜底逻辑)
+DOMAIN-KEYWORD,nexon
+DOMAIN-KEYWORD,maplestory
+
+# CDN 与 更新服务 (部分走 CDN 的资源)
+DOMAIN-SUFFIX,nxedge.net
+DOMAIN-SUFFIX,llnwd.net
+
+# 进程匹配 (仅适用于 Surge Mac 且在同一台设备运行)
+PROCESS-NAME,NexonLauncher.exe
+PROCESS-NAME,MapleStory.exe
+PROCESS-NAME,NxSteamService.exe
+PROCESS-NAME,BlackCipher.exe
+PROCESS-NAME,NGS.exe
+PROCESS-NAME,wineserver
+
+# IP 段
+IP-ASN,13445,Nexon,no-resolve
