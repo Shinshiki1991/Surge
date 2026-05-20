@@ -6,6 +6,7 @@ payload:
   - DOMAIN-SUFFIX,nexon.io
   - DOMAIN-SUFFIX,nx.com
   - DOMAIN-SUFFIX,nexon.gtld
+  - DOMAIN-SUFFIX,nexoncdn.co.kr
 
 # 关键字匹配 (兜底逻辑)
   - DOMAIN-KEYWORD,nexon
@@ -22,6 +23,3 @@ payload:
   - PROCESS-NAME,BlackCipher.exe
   - PROCESS-NAME,NGS.exe
   - PROCESS-NAME,wineserver
-
-# IP 段
-  - IP-ASN,13445,Nexon,no-resolve
