@@ -2,9 +2,10 @@
 # 域名后缀匹配 (涵盖官网、登录器、API)
 DOMAIN-SUFFIX,nexon.com
 DOMAIN-SUFFIX,nexon.net
-DOMAIN-SUFFIX,nexon.io
+DOMAIN-SUFFIX,ccu-edge.nexon.io
 DOMAIN-SUFFIX,nx.com
 DOMAIN-SUFFIX,nexon.gtld
 DOMAIN-SUFFIX,nexoncdn.co.kr
-
-
+DOMAIN-SUFFIX,public.api.nexon.com
+DOMAIN-SUFFIX,nxl.log.nexon.io
+DOMAIN-SUFFIX,config.na.nexon.com
